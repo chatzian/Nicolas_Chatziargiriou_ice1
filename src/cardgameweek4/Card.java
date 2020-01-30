@@ -11,6 +11,16 @@ public class Card {
         private final Suit suit;
         private final Value value;
         
+        private static String joker;
+        
+        public void setJoker(String name){
+            
+            joker = name;
+        }
+        
+        
+        
+        
         public Card(Suit s, Value gVal)
         {
            suit =s;
